@@ -1,0 +1,57 @@
+.product {
+  width: 100%;
+  background: $bg-sy;
+  padding-bottom: 70px;
+  width: 100%;
+  .product__wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    p {
+      font-size: 48px;
+      color: $bg-py;
+    }
+
+    .product__box {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+      .product__text {
+        max-width: 450px;
+        display: flex;
+        gap: 25px;
+        flex-direction: column;
+        p {
+          font-size: 18px;
+          color: rgb(19, 19, 146);
+        }
+        b {
+          color: rgb(53, 53, 107);
+          font-size: 32px;
+        }
+      }
+
+      .product__output {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        strong {
+          color: rgb(19, 19, 146);
+          font-size: 22px;
+        }
+        .product__sircl {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,46 @@
+.convert{
+    width: 100%;
+    background: $bg-sy;
+    padding: 200px 0 100px;
+    .convert__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+        .convert__card{
+            // margin-top: 200px;
+            max-width: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 70px 45px;
+            background: $bg-py;
+            border-radius: 10px 10px 10px 10px;
+            p{
+                font-size: 22px;
+                text-align: center;
+                color: aliceblue;
+            }
+        }
+    }
+}
+@media (max-width: 800px){
+ .convert{
+    .convert__box{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+ }
+}
+@media (max-width: 500px) {
+ .convert{
+    padding: 77px 0;
+    .convert__box{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+ }
+}

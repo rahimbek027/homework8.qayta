@@ -1,0 +1,18 @@
+
+footer{
+    // margin-top: 320px;
+    .footer__body{
+    padding: 20px 0;
+    width: 100%;
+    background: rgb(44, 44, 233);
+    span{
+        color: white;
+    }
+    .footer__text{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+}
+}
